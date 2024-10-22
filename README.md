@@ -10,7 +10,7 @@ This repo contains a "simplified" implementation of [SERAB](https://arxiv.org/ab
 Update: BYOL-S was one of the strongest submissions of the HEAR NeurIPS 2021 Challenge! Leaderboard results: https://neuralaudio.ai/hear2021-results.html
 
 ## Demo
-* A quick demo detailing the SERAB evaluation procedure on a Colab notebook is available [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1EiHujFVt9Hb0VbI0b5RaMfYOYaHq9NrQ?usp=sharing)
+* A quick demo detailing the SERAB evaluation procedure on a Colab notebook is available [![Open In Colab](https://colab.research.google.com/drive/1UNQIui14t6vEo5wFohPOGmAyjKJglXLO#scrollTo=3lPOdiOYOD0G)](https://colab.research.google.com/drive/1UNQIui14t6vEo5wFohPOGmAyjKJglXLO#scrollTo=3lPOdiOYOD0G)
 
 ## Environment setup
 Libraries to reproduce the environment are detailed in `serab.yml`.
@@ -106,11 +106,3 @@ The datasets are now ready to use!
 ## Citation
 
 If you are using this code, please cite [the paper](https://arxiv.org/abs/2110.03414):
-```
-@article{scheidwasser2021serab,
-  title={SERAB: A multi-lingual benchmark for speech emotion recognition},
-  author={Scheidwasser-Clow, Neil and Kegler, Mikolaj and Beckmann, Pierre and Cernak, Milos},
-  journal={arXiv preprint arXiv:2110.03414},
-  year={2021}
-}
-```
