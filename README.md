@@ -9,8 +9,8 @@ This repo contains a "simplified" implementation of [SERAB](https://arxiv.org/ab
 
 Update: BYOL-S was one of the strongest submissions of the HEAR NeurIPS 2021 Challenge! Leaderboard results: https://neuralaudio.ai/hear2021-results.html
 
-## Demo
-* A quick demo detailing the SERAB evaluation procedure on a Colab notebook is available [![Open In Colab](https://colab.research.google.com/drive/1UNQIui14t6vEo5wFohPOGmAyjKJglXLO#scrollTo=3lPOdiOYOD0G)](https://colab.research.google.com/drive/1UNQIui14t6vEo5wFohPOGmAyjKJglXLO#scrollTo=3lPOdiOYOD0G)
+## code
+* A code detailing the SERAB evaluation procedure on a Colab notebook is available [![Open In Colab](https://colab.research.google.com/drive/1Q6ag4F0ScllGa0Uz57OtEeEML9Y8Kbwv#scrollTo=kdnhQYnFFtjs)](https://colab.research.google.com/drive/1Q6ag4F0ScllGa0Uz57OtEeEML9Y8Kbwv#scrollTo=kdnhQYnFFtjs)
 
 ## Environment setup
 Libraries to reproduce the environment are detailed in `serab.yml`.
