@@ -101,6 +101,20 @@ cd tensorflow_datasets/{DATASET_NAME}
 tfds build  # Download and prepare the dataset to `~/tensorflow_datasets/
 ```
 
+
+Improvements in Audio Classification
+To enhance SERAB’s performance and efficiency, we implemented several key improvements in audio classification:
+
+Feature Engineering: Dimensionality reduction through Principal Component Analysis (PCA) allows the model to focus on essential features, reducing computational costs while retaining maximum variance.
+
+Ensemble Modeling: By using stacking and voting classifiers, we leverage multiple models to boost prediction accuracy. This approach combines strengths from different classifiers to achieve more robust results.
+
+Hyperparameter Optimization: We employ RandomizedSearchCV to efficiently explore hyperparameter combinations, ensuring optimal settings for each dataset and model without exhaustive searches.
+
+Enhanced Evaluation Metrics: Beyond standard accuracy, we incorporate precision, recall, and F1 scores to provide a comprehensive evaluation, which is especially useful for handling class imbalances in emotion recognition.
+
+Model Persistence: For easy model reuse and deployment, we save trained models with joblib, allowing for consistent benchmarking across datasets and simplifying evaluation processes.
+
 The datasets are now ready to use!
 
 ## Citation
